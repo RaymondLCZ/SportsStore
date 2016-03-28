@@ -7,3 +7,13 @@ C:\Users\Raymond\Documents\Visual Studio 2015\Projects\SportsStore\src\SportsSto
 C:\Users\Raymond\Documents\Visual Studio 2015\Projects\SportsStore\src\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Raymond\Documents\Visual Studio 2015\Projects\SportsStore\src\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
 C:\Users\Raymond\Documents\Visual Studio 2015\Projects\SportsStore\src\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+D:\Git\Source\Repos\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+D:\Git\Source\Repos\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+D:\Git\Source\Repos\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+D:\Git\Source\Repos\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.dll
+D:\Git\Source\Repos\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\Git\Source\Repos\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.xml
+D:\Git\Source\Repos\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\Git\Source\Repos\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csprojResolveAssemblyReference.cache
+D:\Git\Source\Repos\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+D:\Git\Source\Repos\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb

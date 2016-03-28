@@ -11,6 +11,8 @@ namespace SportsStore.Domain.Entities
         public Product Product { get; set; }
         public int Quantity { get; set; }
 
+        public decimal Total { get {return (Product.Price * Quantity); } }
+
         public CartLine (Product product, int quantity)
         {
             this.Product = product;
