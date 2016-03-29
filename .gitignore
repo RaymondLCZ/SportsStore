@@ -8,5 +8,6 @@
 /SportsStore.UnitTest/obj/
 /SportsStore.WebUI/bin/
 /SportsStore.WebUI/obj/
+/TestResults/
 *.suo
 *.gitignore
