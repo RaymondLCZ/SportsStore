@@ -1,0 +1,9 @@
+﻿################################################################################
+# 這個 .gitignore 檔案由 Microsoft(R) Visual Studio 自動建立。
+################################################################################
+
+/SportsStore.Domain/obj/Debug
+/SportsStore.UnitTest/bin/Debug
+/SportsStore.WebUI/bin/zh-Hant
+/SportsStore.UnitTest/obj/Debug
+*.suo
