@@ -18,31 +18,29 @@ namespace SportsStore.WebUI.Controllers
             this.repository = repo;
         }
 
-        public RedirectToRouteResult AddToCart(int productID, string returnUrl)
+        public RedirectToRouteResult AddToCart(Cart cart, int productID, string returnUrl)
         {
             Product product = repository.Products.FirstOrDefault(p => p.ProductID == productID);
 
-            if (product != null)
-            {
-                GetCart().AddItem(product, 1);
-            }
+            if (product != null) cart.AddItem(product, 1);
             return RedirectToAction("Index", new { returnUrl });
         }
 
-        public RedirectToRouteResult RemoveFromCart(int productID, string returnUrl)
+        public RedirectToRouteResult RemoveFromCart(Cart cart, int productID, string returnUrl)
         {
             Product product = repository.Products.FirstOrDefault(p => p.ProductID == productID);
 
-            if (product != null) GetCart().RemoveItem(product);
+            if (product != null) cart.RemoveItem(product);
 
             // This has the effect of sending an HTTP redirect instruction to the client browser, asking the browser to request a new URL.
             return RedirectToAction("Index", new { returnUrl });
         }
 
-        public ViewResult Index(string returnUrl)
+        public ViewResult Index(Cart cart, string returnUrl)
         {
-            return View(new CartIndexViewModel {
-                Cart = GetCart(),
+            return View(new CartIndexViewModel
+            {
+                Cart = cart,
                 ReturnUrl = returnUrl
             });
         }
