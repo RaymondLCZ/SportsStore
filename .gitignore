@@ -3,7 +3,10 @@
 ################################################################################
 
 /SportsStore.Domain/obj/Debug
-/SportsStore.UnitTest/bin/Debug
-/SportsStore.WebUI/bin/zh-Hant
-/SportsStore.UnitTest/obj/Debug
+/SportsStore.Domain/bin/Debug
+/SportsStore.UnitTest/bin/
+/SportsStore.UnitTest/obj/
+/SportsStore.WebUI/bin/
+/SportsStore.WebUI/obj/
 *.suo
+*.gitignore
