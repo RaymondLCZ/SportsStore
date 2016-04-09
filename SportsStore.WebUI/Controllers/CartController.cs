@@ -45,6 +45,10 @@ namespace SportsStore.WebUI.Controllers
             });
         }
 
+        public PartialViewResult Summary(Cart cart) {
+            return PartialView(cart);
+        }
+
         private Cart GetCart()
         {
             // Session state objects are stored in the memory of ASP.NET server by default
