@@ -32,9 +32,9 @@
                     @using (Html.BeginForm("RemoveFromCart", "Cart"))
                     {
                         @Html.Hidden("ProductID", line.Product.ProductID)
-                        @Html.HiddenFor(p=> p.ReturnUrl)
-                        <input class="btn btn-sm btn-warning" type="submit" value="Remove"/>
-                        
+                        @Html.HiddenFor(p => p.ReturnUrl)
+                        <input class="btn btn-sm btn-warning" type="submit" value="Remove" />
+
                     }
                 </td>
             </tr>
@@ -50,4 +50,5 @@
 
 <div class="text-center">
     <a class="btn btn-primary" href="@Model.ReturnUrl">繼續購物</a>
+    @Html.ActionLink("結帳", "Checkout", null, new { @class = "btn btn-primary" })
 </div>
